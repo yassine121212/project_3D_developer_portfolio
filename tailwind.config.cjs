@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      animation: {
+        spin: "spin 5s linear infinite", // Customize your animation here
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",

@@ -4,16 +4,17 @@ const CanvasLoader = () => {
   const { progress } = useProgress();
   return (
     <Html
-      as='div'
+      as="div"
       center
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
+        zIndex: 30,
       }}
     >
-      <span className='canvas-loader'></span>
+      <span className="canvas-loader"></span>
       <p
         style={{
           fontSize: 14,
